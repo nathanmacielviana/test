@@ -1,0 +1,56 @@
+#nav-saturn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 32px;
+  margin-top: 15rem;
+
+  & h1 {
+    color: var(--DEDEDE);
+    font: var(--h1-principal);
+  }
+
+  & p {
+    color: var(--DEDEDE);
+    font: var(--p-principal);
+    text-align: center;
+  }
+
+  & #btn-principal {
+    background-color: var(--D10F66);
+    padding: 25px 30px;
+    border-radius: 8px;
+    font: 500 1.25rem/24% var(--font-family);
+  }
+}
+
+span {
+  position: relative;
+}
+
+span::after {
+  content: "";
+  position: absolute;
+  right: 65px;
+  width: 173px;
+  height: 5px;
+  background-color: var(--D10F66);
+}
+
+h1 {
+  position: relative;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  left: 641px;
+  top: 70px;
+  width: 170px;
+  height: 5px;
+  background-color: var(--D10F66);
+}

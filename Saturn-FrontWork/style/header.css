@@ -1,0 +1,37 @@
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1.5rem;
+  margin: 2rem auto;
+  gap: 20px;
+
+  width: 62.5rem;
+
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25),
+    0px 0px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 1.25rem;
+
+  & #logo {
+    color: var(--branco);
+    font: var(--logo);
+  }
+
+  & #links {
+    display: flex;
+    gap: 30px;
+  }
+
+  & .btn-header {
+    display: flex;
+    padding: 1.25rem 0.625rem;
+    background-color: var(--D10F66);
+    border-radius: 0.5rem;
+  }
+
+  #menu-hamburger {
+    display: none;
+  }
+}
